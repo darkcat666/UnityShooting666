@@ -52,7 +52,7 @@ public class Boss_AI1 : MonoBehaviour
 
     public void EnemyShoot()
     {
-        Instantiate(enemyBullet, transform.position + new Vector3(0, ENEMY_SHOT_SPEED, 0), Quaternion.AngleAxis(1, Vector3.right));
+        Instantiate(enemyBullet, transform.position + new Vector3(0, ENEMY_SHOT_SPEED, 0), Quaternion.AngleAxis(1, Vector3.down));
     }
 
     IEnumerator searchAndCaved_ON()

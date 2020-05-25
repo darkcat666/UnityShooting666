@@ -17,7 +17,7 @@ public class EnemyBulletController : MonoBehaviour
     }
     void Update()
     {
-        transform.Translate(0, SHOT_SPEED, 0);
+        this.transform.Translate(0, SHOT_SPEED, 0);
 
         if (transform.position.y < -5)
         {
